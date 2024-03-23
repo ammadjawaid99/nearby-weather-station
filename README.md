@@ -13,6 +13,11 @@ This web application, "Nearby Weather Station App" is a simple web application t
 - **jQuery**: A fast, small, and feature-rich JavaScript library.
 - **jQuery Mobile**: A touch-optimized web framework for smartphones and tablets.
 
+![image](https://github.com/ammadjawaid99/nearby-weather-station/assets/70509472/9d3e8936-de8d-44ac-8b32-f92bab510385)
+
+![image](https://github.com/ammadjawaid99/nearby-weather-station/assets/70509472/b4299200-2095-4b53-b754-fd6caed5a2cc)
+
+
 ### Usage
 
 1. Open the index.html file in a web browser.
