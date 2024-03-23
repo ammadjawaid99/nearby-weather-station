@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Weather Application</title>
+        
+        <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        
+        
+    </head>
+    <body>
+       
+        <div data-role = "page" id = "home">
+            <div data-role = "header">
+                <h1>My Weather App</h1>
+                <a href = "#" id = "refresh" data-icon = "refresh" class = "ui-btn-right">Refresh</a>
+            </div>
+            <div data-role = "content">
+                <ul data-role = "listview" id = "stations_list">
+                    <!-- Add the list of stations using javascript -->
+                </ul>            
+            </div>
+        </div><!-- Page 1 Ends -->
+
+        <div data-role = "page" id = "details">
+            <div data-role = "header" data-add-back-btn = "true">
+                <h1>Station Details</h1>
+            </div>
+
+            <div data-role = "content">
+                <img id = "stationIcon"/>
+                <h4 id = "stationName"></h4>
+
+                <ul data-role = "listview" data-inset = "true">
+                    <li><span id = "stationDescription"></span></li>
+                    <li><span id = "stationTemp"></span></li>
+                    <li><span id = "stationHumidity"></span></li>
+                    <li><span id = "stationPressure"></span></li>
+                </ul>
+                
+            </div> 
+        </div>
+        
+        
+    </body>
+    <script src = "mycode.js"></script>
+</html>
